@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: table;
+    /* border: 1px solid rgb(255, 0, 0); */
+    margin: auto;
+    position: relative;
+    left: 690px;
+    background-color: rgb(143, 65, 65);
+    top: 100px;
+    border-radius: 20px;
+}
+.light{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+}
